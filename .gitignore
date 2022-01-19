@@ -8,3 +8,4 @@ kderice-restore.sh
 kde.knsv
 install.example.conf
 dotfiles
+.bashrc
