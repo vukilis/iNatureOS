@@ -1,6 +1,4 @@
 autojump
 brave-bin
-dmenu
 nitrogen
-Konsole
 ttf-meslo

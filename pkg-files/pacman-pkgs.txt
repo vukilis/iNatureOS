@@ -1,3 +1,4 @@
+dmenu
 i3
 efibootmgr
 grub
@@ -7,8 +8,10 @@ nano
 neofetch
 networkmanager
 pulseaudio
+konsole
 ttf-droid
 wget
 lightdm
-lightdm-gtk-greeter
+#lightdm-gtk-greeter
+lightdm-slick-greeter
 lightdm-gtk-greeter-settings
