@@ -9,10 +9,10 @@ echo -ne "
   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝   ╚═╝    ╚═════╝ ╚══════╝
 -------------------------------------------------------------------------
                     Automated Arch Linux Installer
-                        SCRIPTHOME: ArchTitus
+                        SCRIPTHOME: iNatureOS
 -------------------------------------------------------------------------
 "
-source /root/ArchTitus/setup.conf
+source /root/iNatureOS/setup.conf
 echo -ne "
 -------------------------------------------------------------------------
                     Network Setup 
@@ -73,7 +73,7 @@ echo -ne "
                     Installing Base System  
 -------------------------------------------------------------------------
 "
-cat /root/ArchTitus/pkg-files/pacman-pkgs.txt | while read line 
+cat /root/iNatureOS/pkg-files/pacman-pkgs.txt | while read line 
 do
     echo "INSTALLING: ${line}"
    sudo pacman -S --noconfirm --needed ${line}
@@ -113,7 +113,7 @@ elif grep -E "Intel Corporation UHD" <<< ${gpu_type}; then
     pacman -S libva-intel-driver libvdpau-va-gl lib32-vulkan-intel vulkan-intel libva-intel-driver libva-utils lib32-mesa --needed --noconfirm
 fi
 #SETUP IS WRONG THIS IS RUN
-if ! source /root/ArchTitus/setup.conf; then
+if ! source /root/iNatureOS/setup.conf; then
 	# Loop through user input until the user gives a valid username
 	while true
 	do 
@@ -127,11 +127,11 @@ if ! source /root/ArchTitus/setup.conf; then
 		echo "Incorrect username."
 	done 
 # convert name to lowercase before saving to setup.conf
-echo "username=${username,,}" >> ${HOME}/ArchTitus/setup.conf
+echo "username=${username,,}" >> ${HOME}/iNatureOS/setup.conf
 
     #Set Password
     read -p "Please enter password:" password
-echo "password=${password,,}" >> ${HOME}/ArchTitus/setup.conf
+echo "password=${password,,}" >> ${HOME}/iNatureOS/setup.conf
 
     # Loop through user input until the user gives a valid hostname, but allow the user to force save 
 	while true
@@ -150,7 +150,7 @@ echo "password=${password,,}" >> ${HOME}/ArchTitus/setup.conf
 		fi 
 	done 
 
-    echo "nameofmachine=${nameofmachine,,}" >> ${HOME}/ArchTitus/setup.conf
+    echo "nameofmachine=${nameofmachine,,}" >> ${HOME}/iNatureOS/setup.conf
 fi
 echo -ne "
 -------------------------------------------------------------------------
@@ -163,8 +163,8 @@ if [ $(whoami) = "root"  ]; then
 
 # use chpasswd to enter $USERNAME:$password
     echo "$USERNAME:$PASSWORD" | chpasswd
-	cp -R /root/ArchTitus /home/$USERNAME/
-    chown -R $USERNAME: /home/$USERNAME/ArchTitus
+	cp -R /root/iNatureOS /home/$USERNAME/
+    chown -R $USERNAME: /home/$USERNAME/iNatureOS
 # enter $nameofmachine to /etc/hostname
 	echo $nameofmachine > /etc/hostname
 else
