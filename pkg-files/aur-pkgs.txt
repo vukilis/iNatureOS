@@ -1,0 +1,4 @@
+autojump
+brave-bin
+sddm-nordic-theme-git
+ttf-meslo
