@@ -1,4 +1,6 @@
 autojump
 brave-bin
-sddm-nordic-theme-git
+dmenu
+nitrogen
+Konsole
 ttf-meslo

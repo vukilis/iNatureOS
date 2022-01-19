@@ -22,19 +22,10 @@ git clone "https://aur.archlinux.org/yay.git"
 cd ~/yay
 makepkg -si --noconfirm
 cd ~
-touch "~/.cache/zshhistory"
-git clone "https://github.com/ChrisTitusTech/zsh"
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-ln -s "~/zsh/.zshrc" ~/.zshrc
 
 yay -S --noconfirm --needed - < ~/iNatureOS/pkg-files/aur-pkgs.txt
 
 export PATH=$PATH:~/.local/bin
-cp -r ~/iNatureOS/dotfiles/* ~/.config/
-pip install konsave
-konsave -i ~/iNatureOS/kde.knsv
-sleep 1
-konsave -a kde
 
 echo -ne "
 -------------------------------------------------------------------------
