@@ -14,14 +14,14 @@ echo -ne "
 -------------------------------------------------------------------------
                     Automated Arch Linux Installer
 -------------------------------------------------------------------------
-                Scripts are in directory named iNature
+                Scripts are in directory named iNatureOS
 "
     bash startup.sh
     source $SCRIPT_DIR/setup.conf
     bash 0-preinstall.sh
-    arch-chroot /mnt /root/iNature/1-setup.sh
-    arch-chroot /mnt /usr/bin/runuser -u $USERNAME -- /home/$USERNAME/iNature/2-user.sh
-    arch-chroot /mnt /root/iNature/3-post-setup.sh
+    arch-chroot /mnt /root/iNatureOS/1-setup.sh
+    arch-chroot /mnt /usr/bin/runuser -u $USERNAME -- /home/$USERNAME/iNatureOS/2-user.sh
+    arch-chroot /mnt /root/iNatureOS/3-post-setup.sh
 
 echo -ne "
 -------------------------------------------------------------------------
