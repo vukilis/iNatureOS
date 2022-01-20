@@ -238,7 +238,7 @@ workspace_auto_back_and_forth yes
 
 # compositor
 #exec_always --no-startup-id picom -b
-exec_always picom --config $HOME/.comfig/picom/picom.conf --experimental-backends & 
+exec_always picom --config $HOME/.config/picom/picom.conf --experimental-backends & 
 
 # lock screen
 bindsym $mod+x exec i3lock 
