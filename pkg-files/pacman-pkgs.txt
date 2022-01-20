@@ -18,3 +18,4 @@ lightdm-slick-greeter
 lightdm-gtk-greeter-settings
 mlocate
 picom
+xdg-user-dirs
