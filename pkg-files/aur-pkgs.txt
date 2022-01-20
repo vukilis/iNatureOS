@@ -2,3 +2,5 @@ autojump
 brave-bin
 nitrogen
 ttf-meslo
+nordic-theme
+sddm-nordic-theme-git

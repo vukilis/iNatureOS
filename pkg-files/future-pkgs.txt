@@ -1,0 +1,10 @@
+#PACMAN:
+picom
+
+lightdm
+#lightdm-gtk-greeter
+lightdm-slick-greeter
+lightdm-gtk-greeter-settings
+
+#AUR:
+polybar

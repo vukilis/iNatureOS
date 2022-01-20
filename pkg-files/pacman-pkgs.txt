@@ -12,9 +12,6 @@ konsole
 ttf-droid
 ttf-font-awesome
 wget
-lightdm
-#lightdm-gtk-greeter
-lightdm-slick-greeter
-lightdm-gtk-greeter-settings
+sddm
 mlocate
 xdg-user-dirs
