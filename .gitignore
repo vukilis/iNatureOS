@@ -7,6 +7,5 @@ kderice-backup.sh
 kderice-restore.sh
 kde.knsv
 install.example.conf
-dotfiles
 .bashrc
 .tracking-work.txt
