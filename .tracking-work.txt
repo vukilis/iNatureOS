@@ -1,0 +1,45 @@
+######## if virtualbox then ########
+sudo pacman -Sy virtualbox-guest-utils
+sudo systemctl enable vboxservice.service
+-----------------------------------------
+
+######## DAY 1 - 19.01.2022 ########
+- setup automate installation bash script 
+- install i3wm
+- set nitrogen wallpaper
+- start building .config/i3/config
+- start building .config/i3status/i3status.conf
+- start building /etc/xdg/picom.conf
+
+######## DAY 2 ########
+- building .config/i3/config
+- building .config/i3status/i3status.conf
+- building /etc/xdg/picom.conf
+- change /etc/xdg/picom.conf to ~/.config/picom/picom.conf
+######## DAY 3 ########
+- install polybar
+- /usr/share/doc/polybar/config
+- start building .config/polybar/confing
+- setup power-menu-for-archlinux //fail
+- setup betterlockscreen  // betterlockscreen@$USER.service
+######## DAY 4 ########
+- install rofi
+- setup .config/rofi/config.rasi
+- tty-clock -ScD -C 5
+######## DAY 5 ########
+- setup .config/rofi/config.rasi
+convert original.jpg -channel RGBA -blur 0x8 blurred.jpg  // https://legacy.imagemagick.org/Usage/blur/
+- setup ranger
+######## DAY 6 ########
+
+
+WM: i3
+Lock Screen: betterlockscreen
+Display Manager: SDDM                #finish theme
+OS: Arch linux
+Shell: zsh                           #finish this
+Terminal: Kitty
+Font: MesloLGL Regular
+File Editor: Neovim
+Browser: Brave
+File Manager: Ranger
