@@ -4,3 +4,10 @@ nitrogen
 ttf-meslo
 nordic-theme
 sddm-nordic-theme-git
+chromium
+polybar
+siji-git ttf-unifont
+betterlockscreen
+i3lock-color
+i3-gaps-rounded-git 
+tty-clock-git

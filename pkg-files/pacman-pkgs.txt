@@ -1,5 +1,4 @@
 dmenu
-i3
 efibootmgr
 grub
 grub-customizer
@@ -15,3 +14,12 @@ wget
 sddm
 mlocate
 xdg-user-dirs
+neovim
+ranger
+picom
+net-tools
+xorg-fonts-misc
+xorg-xrdb
+bc
+rofi
+kitty
