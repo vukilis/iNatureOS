@@ -41,5 +41,5 @@ Shell: zsh                           #finish this
 Terminal: Kitty
 Font: MesloLGL Regular
 File Editor: Neovim
-Browser: Brave
+Browser: Chromium
 File Manager: Ranger
