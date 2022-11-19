@@ -36,7 +36,7 @@ echo -ne "
    888 888   Y8888 888  888 Y88b.  Y88b 888 888    Y8b.     Y88b. .d88P Y88b  d88P 
    888 888    Y888 "Y888888  "Y888  "Y88888 888     "Y8888   "Y88888P"   "Y8888P"
 -------------------------------------------------------------------------
-                    Automated Arch Linux Installer
+                    Automated iNatureOS Installer
 -------------------------------------------------------------------------
                 Done - Please Eject Install Media and Reboot
 "
