@@ -13,4 +13,4 @@
 ![Image of Yaktocat](https://raw.githubusercontent.com/vukilis/iNatureOS/main/rice%231.png)
 
 ## Alert
-* **Auto installation script is not finish**
+* **Auto-install script is not finished**
